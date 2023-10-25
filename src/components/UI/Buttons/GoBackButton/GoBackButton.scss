@@ -1,0 +1,14 @@
+.go-back-button {
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  opacity: 50%;
+  transition: all 0.2s linear;
+
+  &:hover {
+    color: var(--marine-blue);
+    opacity: 100%;
+  }
+}

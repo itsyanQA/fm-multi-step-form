@@ -1,0 +1,29 @@
+.form-container {
+  width: 60%;
+  height: 549px;
+  display: flex;
+  align-items: flex-start;
+  background-color: var(--white);
+  padding: 15px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  gap: 10%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  max-width: 936px;
+  box-shadow: 0px 5px 15px 0px var(--light-gray);
+  animation: fadeInAnimation 0.5s ease-in;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 30px 80px 20px 0px;
+    box-sizing: border-box;
+    gap: 30px;
+    justify-content: space-between;
+    width: 100%;
+  }
+}

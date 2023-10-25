@@ -1,0 +1,17 @@
+.form-stepper {
+  height: 100%;
+  padding: 30px 20px 20px 20px;
+  background-image: url("../../assets/svg/bg-sidebar-desktop.svg");
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 234px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+
+  @media screen and (max-width: 600px) {
+    background-image: url("../../assets/svg/bg-sidebar-mobile.svg");
+  }
+}

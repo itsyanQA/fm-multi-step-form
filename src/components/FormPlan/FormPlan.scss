@@ -1,0 +1,22 @@
+.plan-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  flex-direction: column;
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__upper-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+.plans {
+  display: flex;
+  gap: 20px;
+}

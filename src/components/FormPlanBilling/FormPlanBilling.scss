@@ -1,0 +1,21 @@
+.form-plan-billing {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-color: hsla(231, 11%, 63%, 7%);
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  gap: 20px;
+
+  &__text {
+    font-weight: 600;
+    font-size: 14px;
+    opacity: 50%;
+
+    &.active {
+      color: var(--marine-blue);
+      opacity: 100%;
+    }
+  }
+}

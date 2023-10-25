@@ -1,0 +1,22 @@
+.summary-sub-item {
+  display: flex;
+  justify-content: space-between;
+
+  &__title {
+    opacity: 50%;
+    font-size: 13px;
+  }
+
+  &__price {
+    font-size: 13px;
+    color: var(--marine-blue);
+    opacity: 95%;
+    font-weight: 500;
+
+    &--total {
+      font-size: 18px;
+      color: var(--purplish-blue);
+      font-weight: 600;
+    }
+  }
+}

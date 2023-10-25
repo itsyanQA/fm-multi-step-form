@@ -1,0 +1,49 @@
+.plan-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px;
+  flex-direction: column;
+  border: 1px solid hsla(231, 11%, 63%, 50%);
+  height: 165px;
+  border-radius: 7px;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    border: 1px solid var(--purplish-blue);
+  }
+
+  &--selected {
+    border: 1px solid var(--purplish-blue);
+    background-color: hsla(231, 11%, 63%, 7%);
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  &__name {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--marine-blue);
+  }
+
+  &__pricing {
+    opacity: 50%;
+    font-size: 14px;
+    animation: halfFadeIn 0.5s ease-in;
+  }
+}
+
+@keyframes halfFadeIn {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 50%;
+  }
+}
