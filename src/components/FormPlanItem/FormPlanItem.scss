@@ -10,6 +10,13 @@
   cursor: pointer;
   transition: all 0.3s ease-out;
 
+  @media screen and (max-width: 600px) {
+    flex-direction: row;
+    justify-content: unset;
+    gap: 20px;
+    height: unset;
+  }
+
   &:hover {
     border: 1px solid var(--purplish-blue);
   }

@@ -14,6 +14,10 @@
       border-bottom: 0.5px solid hsla(231, 11%, 63%, 20%);
       padding-bottom: 25px;
       margin-bottom: 10px;
+
+      @media screen and (max-width: 600px) {
+        padding-bottom: 15px;
+      }
     }
   }
 

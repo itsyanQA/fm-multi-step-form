@@ -5,6 +5,7 @@ import { Dispatch, SetStateAction } from "react";
 import FormEmptyInputMsg from "../FormEmptyInputMsg/FormEmptyInputMsg";
 import NextStepButton from "../UI/Buttons/NextStepButton/NextStepButton";
 import { Steps } from "../../shared.types";
+import { ButtonsContainer } from "../../styled/ButtonsContainer";
 
 type FormContactProps = {
   setActiveStep: Dispatch<SetStateAction<Steps>>;

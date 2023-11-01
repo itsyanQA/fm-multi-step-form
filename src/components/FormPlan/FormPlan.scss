@@ -19,4 +19,8 @@
 .plans {
   display: flex;
   gap: 20px;
+
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
 }

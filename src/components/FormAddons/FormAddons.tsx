@@ -19,7 +19,7 @@ export default function FormAddons(props: FormAddonsProps) {
 
   const addons: Addon[] = [
     {
-      title: "Online Service",
+      title: "Online service",
       description: "Access to multiplayer games",
       pricing: planBilling === "Monthly" ? 1 : 10,
     },

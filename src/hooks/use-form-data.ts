@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Steps, Billing, Plan, Addon } from "../shared.types";
 
 export const useFormData = () => {
-  const [activeStep, setActiveStep] = useState<Steps>(4);
+  const [activeStep, setActiveStep] = useState<Steps>(1);
   const [planBilling, setPlanBilling] = useState<Billing>("Monthly");
   const [selectedPlan, setSelectedPlan] = useState<Plan | null>(null);
   const [selectedAddons, setSelectedAddons] = useState<Addon[]>([]);

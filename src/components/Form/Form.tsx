@@ -25,7 +25,6 @@ export default function Form() {
   } = useFormData();
 
   const commonContentProps = { setActiveStep };
-  const THANK_YOU_STEP = 5;
 
   const stepContent: Record<Steps, JSX.Element | null> = {
     1: <FormContact {...commonContentProps} />,
