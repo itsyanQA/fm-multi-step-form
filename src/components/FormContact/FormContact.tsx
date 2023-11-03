@@ -84,7 +84,9 @@ export default function FormContact({ setActiveStep }: FormContactProps) {
           />
         </div>
       </div>
-      <NextStepButton />
+      <ButtonsContainer $singleButton={true}>
+        <NextStepButton />
+      </ButtonsContainer>
     </form>
   );
 }
