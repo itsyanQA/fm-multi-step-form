@@ -79,7 +79,6 @@ export default function FormContact({ setActiveStep }: FormContactProps) {
             onChange={(e) => actions.setPhone(e.target.value)}
             type="tel"
             placeholder="e.g +1 234 567 890"
-            pattern="^(\+\d{1,4}(\s|\d{1,4}|\-)+|\d{10}|\+\d{3}\s\d{3}(\-\d{3})+)$"
             minLength={10}
           />
         </div>
